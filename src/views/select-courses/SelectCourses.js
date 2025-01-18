@@ -1,9 +1,9 @@
 /* eslint-disable prettier/prettier */
-import React from 'react'
+import React, { useState } from 'react'
 import { CTable } from '@coreui/react'
 
 const SelectCourses = () => {
-  //const [selectedCourses, setSelectCourse] = useState('');
+  const [selectedCourses, setSelectCourse] = useState('');
   const columns = [
     {
         key: 'id',
