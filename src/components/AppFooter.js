@@ -14,14 +14,7 @@ const AppFooter = () => {
         </a>
       </div>
       <div className="ms-auto">
-        <span className="me-1">Powered by</span>
-        <a
-          href="https://github.com/nty-dev/Course-Royale"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Course Royale Development Team
-        </a>
+        <span className="me-1">Coursereg, but with gambling elements.</span>
       </div>
     </CFooter>
   )
