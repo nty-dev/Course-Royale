@@ -1,8 +1,12 @@
 import React from 'react'
 
 const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
+<<<<<<< HEAD
 const Roulette = React.lazy(() => import('./views/roulette/Roulette'));
 
+=======
+const SelectCourses = React.lazy(() => import('./views/select-courses/SelectCourses'))
+>>>>>>> 2b3a81512112c45a9809a5044a0dc31313e392f9
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
 
@@ -57,6 +61,7 @@ const routes = [
   { path: '/', exact: true, name: 'Home' },
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
   { path: '/roulette', name: 'Roulette', element: Roulette },
+  { path: '/select-courses', name: 'Select Courses', element: SelectCourses },
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', element: Colors },
   { path: '/theme/typography', name: 'Typography', element: Typography },
