@@ -4,6 +4,7 @@ const Dashboard = React.lazy(() => import('./views/dashboard/Dashboard'))
 const Roulette = React.lazy(() => import('./views/roulette/Roulette'));
 
 const SelectCourses = React.lazy(() => import('./views/select-courses/SelectCourses'))
+const UnderConstruction = React.lazy(() => import('./views/pages/UnderConstruction'))
 const Colors = React.lazy(() => import('./views/theme/colors/Colors'))
 const Typography = React.lazy(() => import('./views/theme/typography/Typography'))
 
@@ -59,6 +60,11 @@ const routes = [
   { path: '/dashboard', name: 'Dashboard', element: Dashboard },
   { path: '/roulette', name: 'Roulette', element: Roulette },
   { path: '/select-courses', name: 'Select Courses', element: SelectCourses },
+  { path: '/submit-course-requests', name: 'Submit Course Requests', element: UnderConstruction },
+  { path: '/select-tutorials', name: 'Select Tutorial/Labs', element: UnderConstruction },
+  { path: '/add-swap-tutorials', name: 'Add/Swap Tutorial/Labs', element: UnderConstruction },
+  { path: '/drop-labs', name: 'Drop Labs', element: UnderConstruction },
+  { path: '/submit-appeals', name: 'Submit Appeals/Inquiries', element: UnderConstruction },
   { path: '/theme', name: 'Theme', element: Colors, exact: true },
   { path: '/theme/colors', name: 'Colors', element: Colors },
   { path: '/theme/typography', name: 'Typography', element: Typography },

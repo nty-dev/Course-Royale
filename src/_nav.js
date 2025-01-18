@@ -38,7 +38,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'View My Courses@Coursereg',
-    to: '/dashboard',
+    to: '/roulette',
     icon: <img src={ViewIcon} alt="View Icon" className="view-icon" />,
     badge: {
       color: 'info',
@@ -56,7 +56,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Submit Course Requests',
-    to: '/dashboard',
+    to: '/submit-course-requests',
     icon: <img src={SubmitIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
@@ -65,7 +65,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Select Tutorial/Labs',
-    to: '/dashboard',
+    to: '/select-tutorials',
     icon: <img src={SelectTutIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
@@ -74,7 +74,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Add/Swap Tutorial/Labs',
-    to: '/dashboard',
+    to: '/add-swap-tutorials',
     icon: <img src={AddSwapIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
@@ -83,7 +83,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Drop Labs',
-    to: '/dashboard',
+    to: '/drop-labs',
     icon: <img src={DropIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
@@ -92,7 +92,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Submit Appeals/Inquiries',
-    to: '/dashboard',
+    to: '/submit-appeals',
     icon: <img src={AppealIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
