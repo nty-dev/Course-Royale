@@ -72,18 +72,15 @@ const Roulette = () => {
   const prizes = [
     {
       image: 'https://i.ibb.co/6Z6Xm9d/good-1.png',
+      text: "CS2030S",
     },
     {
       image: 'https://i.ibb.co/T1M05LR/good-2.png',
+      text: "MA1521",
     },
     {
       image: 'https://i.ibb.co/Qbm8cNL/good-3.png',
-    },
-    {
-      image: 'https://i.ibb.co/5Tpfs6W/good-4.png',
-    },
-    {
-      image: 'https://i.ibb.co/64k8D1c/good-5.png',
+      text: "GEA1000",
     },
   ];
 
