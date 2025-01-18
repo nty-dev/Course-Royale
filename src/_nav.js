@@ -1,5 +1,6 @@
 import React from 'react'
 import CIcon from '@coreui/icons-react'
+import CIconSvg from '@coreui/icons-react'
 import {
   cilBell,
   cilCalculator,
@@ -15,13 +16,21 @@ import {
   cilStar,
 } from '@coreui/icons'
 import { CNavGroup, CNavItem, CNavTitle } from '@coreui/react'
+import AboutIcon from './assets/images/coursereglogos/PS_FN_CURRICULUM_MGMT_1.gif'
+import ViewIcon from './assets/images/coursereglogos/PS_APPR_THISWEEK_M_FL_1.svg'
+import SelectIcon from './assets/images/coursereglogos/PS_SHOPPING_CART_M_FL_1.svg'
+import SubmitIcon from './assets/images/coursereglogos/PS_APPR_TRANSFER_M_FL_1.svg'
+import SelectTutIcon from './assets/images/coursereglogos/EOAWREASSIGN_1.svg'
+import AddSwapIcon from './assets/images/coursereglogos/PT_PORTAL_IC_REFRESH_1.gif'
+import DropIcon from './assets/images/coursereglogos/PS_REMOVE_ALL_M_FL_1.svg'
+import AppealIcon from './assets/images/coursereglogos/PS_MANUAL_ENTRY_M_FL_1.svg'
 
 const _nav = [
   {
     component: CNavItem,
     name: 'About Coursereg@Edurec',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={AboutIcon} alt="About Icon" className="about-icon" />,
     badge: {
       color: 'info',
     },
@@ -30,7 +39,7 @@ const _nav = [
     component: CNavItem,
     name: 'View My Courses@Coursereg',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={ViewIcon} alt="View Icon" className="view-icon" />,
     badge: {
       color: 'info',
     },
@@ -39,7 +48,7 @@ const _nav = [
     component: CNavItem,
     name: 'Select Courses',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={SelectIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
     },
@@ -48,7 +57,7 @@ const _nav = [
     component: CNavItem,
     name: 'Submit Course Requests',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={SubmitIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
     },
@@ -57,7 +66,7 @@ const _nav = [
     component: CNavItem,
     name: 'Select Tutorial/Labs',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={SelectTutIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
     },
@@ -66,7 +75,7 @@ const _nav = [
     component: CNavItem,
     name: 'Add/Swap Tutorial/Labs',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={AddSwapIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
     },
@@ -75,7 +84,7 @@ const _nav = [
     component: CNavItem,
     name: 'Drop Labs',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={DropIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
     },
@@ -84,7 +93,7 @@ const _nav = [
     component: CNavItem,
     name: 'Submit Appeals/Inquiries',
     to: '/dashboard',
-    icon: <CIcon icon={cilSpeedometer} customClassName="nav-icon" />,
+    icon: <img src={AppealIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
     },
