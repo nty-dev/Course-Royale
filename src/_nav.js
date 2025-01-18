@@ -47,7 +47,7 @@ const _nav = [
   {
     component: CNavItem,
     name: 'Select Courses',
-    to: '/dashboard',
+    to: '/select-courses',
     icon: <img src={SelectIcon} alt="Select Icon" className="select-icon" />,
     badge: {
       color: 'info',
