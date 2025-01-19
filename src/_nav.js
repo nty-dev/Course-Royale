@@ -30,7 +30,7 @@ const _nav = [
     component: CNavItem,
     name: 'About Coursereg@Edurec',
     to: '/dashboard',
-    icon: <img src={AboutIcon} alt="About Icon" className="about-icon" />,
+    icon: <img src={AboutIcon} alt="About Icon" className="about iicon" />,
     badge: {
       color: 'info',
     },
@@ -39,7 +39,7 @@ const _nav = [
     component: CNavItem,
     name: 'View My Courses@Coursereg',
     to: '/roulette',
-    icon: <img src={ViewIcon} alt="View Icon" className="view-icon" />,
+    icon: <img src={ViewIcon} alt="View Icon" className="view iicon" />,
     badge: {
       color: 'info',
     },
@@ -48,7 +48,7 @@ const _nav = [
     component: CNavItem,
     name: 'Select Courses',
     to: '/select-courses',
-    icon: <img src={SelectIcon} alt="Select Icon" className="select-icon" />,
+    icon: <img src={SelectIcon} alt="Select Icon" className="select iicon" />,
     badge: {
       color: 'info',
     },
@@ -57,7 +57,7 @@ const _nav = [
     component: CNavItem,
     name: 'Submit Course Requests',
     to: '/submit-course-requests',
-    icon: <img src={SubmitIcon} alt="Select Icon" className="select-icon" />,
+    icon: <img src={SubmitIcon} alt="Select Icon" className="select iicon" />,
     badge: {
       color: 'info',
     },
@@ -66,7 +66,7 @@ const _nav = [
     component: CNavItem,
     name: 'Select Tutorial/Labs',
     to: '/select-tutorials',
-    icon: <img src={SelectTutIcon} alt="Select Icon" className="select-icon" />,
+    icon: <img src={SelectTutIcon} alt="Select Icon" className="select iicon" />,
     badge: {
       color: 'info',
     },
@@ -75,7 +75,7 @@ const _nav = [
     component: CNavItem,
     name: 'Add/Swap Tutorial/Labs',
     to: '/add-swap-tutorials',
-    icon: <img src={AddSwapIcon} alt="Select Icon" className="select-icon" />,
+    icon: <img src={AddSwapIcon} alt="Select Icon" className="select iicon" />,
     badge: {
       color: 'info',
     },
@@ -84,7 +84,7 @@ const _nav = [
     component: CNavItem,
     name: 'Drop Labs',
     to: '/drop-labs',
-    icon: <img src={DropIcon} alt="Select Icon" className="select-icon" />,
+    icon: <img src={DropIcon} alt="Select Icon" className="select iicon" />,
     badge: {
       color: 'info',
     },
@@ -93,7 +93,7 @@ const _nav = [
     component: CNavItem,
     name: 'Submit Appeals/Inquiries',
     to: '/submit-appeals',
-    icon: <img src={AppealIcon} alt="Select Icon" className="select-icon" />,
+    icon: <img src={AppealIcon} alt="Select Icon" className="select iicon" />,
     badge: {
       color: 'info',
     },
