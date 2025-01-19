@@ -31,7 +31,7 @@ const SelectCourses = () => {
   const items = [
     {
         id: 1,
-        Course: 'CS1101S',
+        Course: 'CS2030S',
         ClassType: 'Lecture',
         Session: '1',
         Units: '4.0',
@@ -39,7 +39,7 @@ const SelectCourses = () => {
     },
     {
         id: 2,
-        Course: 'CS1231S',
+        Course: 'CS2040S',
         ClassType: 'Lecture',
         Session: '1',
         Units: '4.0',
@@ -47,7 +47,31 @@ const SelectCourses = () => {
     },
     {
         id: 3,
+        Course: 'CS2100',
+        ClassType: 'Lecture',
+        Session: '1',
+        Units: '4.0',
+        _cellProps: { id: { scope: 'row' } },
+    },
+    {
+        id: 4,
+        Course: 'MA1521',
+        ClassType: 'Lecture',
+        Session: '1',
+        Units: '4.0',
+        _cellProps: { id: { scope: 'row' } },
+    },
+    {
+        id: 5,
         Course: 'MA1522',
+        ClassType: 'Lecture',
+        Session: '1',
+        Units: '4.0',
+        _cellProps: { id: { scope: 'row' } },
+    },
+    {
+        id: 6,
+        Course: 'GAM7777',
         ClassType: 'Lecture',
         Session: '1',
         Units: '4.0',
